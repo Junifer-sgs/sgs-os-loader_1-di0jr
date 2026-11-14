@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    width="100%"
+    height="100%"
+    style="display:block;margin:0;padding:0;width:100vw;height:100vh;position:fixed;top:0;left:0;overflow:hidden;background:#000;">
+
+    <foreignObject
+        x="0"
+        y="0"
+        width="100%"
+        height="100%"
+        style="overflow:visible;width:100%;height:100%;">
+
+        <xhtml:iframe
+            id="html-frame"
+            frameborder="0"
+            scrolling="auto"
+            allow="fullscreen; autoplay; gamepad; clipboard-read; clipboard-write; microphone; camera"
+            sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals allow-downloads allow-pointer-lock"
+            style="
+                position:fixed;
+                inset:0;
+                width:100%;
+                height:100%;
+                border:0;
+                margin:0;
+                padding:0;
+                display:block;
+                overflow:auto;
+                z-index:999999;
+            ">
+        </xhtml:iframe>
+
+    </foreignObject>
+
+    <script><![CDATA[
+(function () {
+    const encoded = "PCFkb2N0eXBlIGh0bWw+CjxodG1sIGxhbmc9ImVuIj48aGVhZD48bWV0YSBjaGFyc2V0PSJ1dGYtOCI+PG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCxpbml0aWFsLXNjYWxlPTEiPjx0aXRsZT5TR1MgT1M8L3RpdGxlPjwvaGVhZD4KPGJvZHkgc3R5bGU9Im1hcmdpbjowO2JhY2tncm91bmQ6IzAwMDtjb2xvcjojZmZmO2ZvbnQ6MTRweC8xLjUgdWktbW9ub3NwYWNlLENvbnNvbGFzLCdDb3VyaWVyIE5ldycsbW9ub3NwYWNlIj4KPHAgaWQ9InN0YXR1cyIgc3R5bGU9InBhZGRpbmc6MjRweCI+c2dzQG9zOn4kIGxvYWRpbmcgdGhlIGxhdGVzdCBTR1MgT1PigKY8L3A+CjxzY3JpcHQ+Cihhc3luYygpPT57CiAvLyAtLS0tIGNoYW5nZSB0aGVzZSBvbmx5IGlmIHlvdXIgcmVwbyBvciBmaWxlIGNoYW5nZXMgLS0tLQogY29uc3QgcmVwbz0nanVuaWZlci1zZ3MvU0dTLU9TJyxmaWxlPSdpbmRleC5odG1sJyxtYXJrZXI9J2lkPSJhcHAtcm9vdCInLGtleT0nc2dzb3MtbG9hZGVyLWxhc3QtY29tbWl0JzsKIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiBsZXQgbGF0ZXN0PScnLHNhdmVkPScnOwogdHJ5e3NhdmVkPWxvY2FsU3RvcmFnZS5nZXRJdGVtKGtleSl8fCcnfWNhdGNoe30KIHRyeXsKICBjb25zdCByPWF3YWl0IGZldGNoKCdodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zLycrcmVwbysnL2NvbW1pdHMvbWFpbicse2NhY2hlOiduby1zdG9yZScsc2lnbmFsOkFib3J0U2lnbmFsLnRpbWVvdXQoODAwMCl9KTsKICBpZihyLm9rKXtjb25zdCBkYXRhPWF3YWl0IHIuanNvbigpO2lmKC9eW2EtZjAtOV17NDB9JC8udGVzdChkYXRhLnNoYSkpbGF0ZXN0PWRhdGEuc2hhfQogfWNhdGNoe30KIGNvbnN0IHJlZnM9Wy4uLm5ldyBTZXQoW2xhdGVzdCwvXlthLWYwLTldezQwfSQvLnRlc3Qoc2F2ZWQpP3NhdmVkOicnLCdtYWluJ10uZmlsdGVyKEJvb2xlYW4pKV07CiBmb3IoY29uc3QgcmVmIG9mIHJlZnMpewogIGZvcihjb25zdCBob3N0IG9mIFsnY2RuLmpzZGVsaXZyLm5ldCcsJ2Zhc3RseS5qc2RlbGl2ci5uZXQnLCdnY29yZS5qc2RlbGl2ci5uZXQnXSl7CiAgIHRyeXsKICAgIGNvbnN0IHI9YXdhaXQgZmV0Y2goJ2h0dHBzOi8vJytob3N0KycvZ2gvJytyZXBvKydAJytyZWYrJy8nK2ZpbGUse3NpZ25hbDpBYm9ydFNpZ25hbC50aW1lb3V0KDIwMDAwKX0pOwogICAgaWYoIXIub2spY29udGludWU7CiAgICBjb25zdCBodG1sPWF3YWl0IHIudGV4dCgpOwogICAgaWYoIS88aHRtbFtccz5dL2kudGVzdChodG1sKXx8IWh0bWwuaW5jbHVkZXMobWFya2VyKSljb250aW51ZTsKICAgIGlmKHJlZiE9PSdtYWluJyl0cnl7bG9jYWxTdG9yYWdlLnNldEl0ZW0oa2V5LHJlZil9Y2F0Y2h7fQogICAgZG9jdW1lbnQub3BlbigpO2RvY3VtZW50LndyaXRlKGh0bWwpO2RvY3VtZW50LmNsb3NlKCk7cmV0dXJuOwogICB9Y2F0Y2h7fQogIH0KIH0KIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdzdGF0dXMnKS50ZXh0Q29udGVudD0nU0dTIE9TIGNvdWxkIG5vdCBsb2FkLiBDaGVjayB5b3VyIGNvbm5lY3Rpb24gYW5kIHJlbG9hZC4nOwp9KSgpOwo8L3NjcmlwdD48L2JvZHk+PC9odG1sPgo=";
+    const binary = atob(encoded);
+    const bytes = new Uint8Array(binary.length);
+    for (let i = 0; i < binary.length; i++) {
+        bytes[i] = binary.charCodeAt(i);
+    }
+    const html = new TextDecoder("utf-8").decode(bytes);
+    const frame = document.getElementById("html-frame");
+    if (!frame) return;
+    frame.srcdoc = html;
+})();
+    ]]></script>
+</svg>
